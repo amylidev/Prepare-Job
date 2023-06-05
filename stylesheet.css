@@ -1,0 +1,182 @@
+/*------------------------------------------------------------*
+**  Global
+**------------------------------------------------------------*/
+html { height: 100%; }
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, sans-serif;
+	font-size: 76%;
+	color: #888;
+	height: 100%;
+	background: #fff url(img/bg.jpg) repeat-x;
+	}
+a { text-decoration: none; color: #11A0CF; font-size: 1em; padding: 1px 2px; }
+a:hover { background-color: #f4f4f4; }
+acronym { border-bottom: 1px dotted #cc0000; cursor: help; }
+
+/*------------------------------------------------------------*
+**  Container
+**------------------------------------------------------------*/	
+#container {
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+	text-align: center;
+	}	
+	
+/*------------------------------------------------------------*
+**  Header
+**------------------------------------------------------------*/	
+#header { 
+	/*background: url(img/header.gif) no-repeat 100% 5px;*/ 
+	width: 750px; 
+	margin: 0 auto;	
+	padding: 0;
+	}
+#header div { 
+	background: url(img/linked.jpg) no-repeat center;
+	background-size: 100% 100%; /*調整圖片大小寬 高*/
+	text-align: left;
+	margin: 20px 0 20px 0;
+	padding: 0px 0 100px 20px;	
+	border-radius:20px;
+	}	
+#header h1 {
+	margin: 0; 
+	clear: both;
+	padding: 25px 0 0 40px;	
+	font-size: 5em;	
+	}
+#header h1 a { 
+	padding: 0;
+	color: #000;
+	font-family: Century Gothic, sans-serif;
+	font-weight: normal;
+	color: #000;	
+	}	
+#header h1 a:hover { background-color: transparent; color: #888;}	
+* html #header h1 { padding-top: 80px; }	
+
+/*------------------------------------------------------------*
+**  Navigation
+**------------------------------------------------------------*/
+#header ul {
+	margin: 0 8px;
+	padding: 0;	
+	}
+#header li { 
+	display: inline;
+	list-style-type: none;
+	margin: 0 8px;
+	font-size: 1.35em;
+	background: url(img/searching-bar.png) no-repeat;
+	background-size: 100% 100%;
+	width: 155px;
+	height: 95px;
+	float: left;
+	text-align:justify;
+	margin-top: -31px;
+	}	
+#header li a { 
+	display: block; 
+	width: 100%;
+	color: #fff;
+	padding-top: 38px;
+	padding-left: 10px;
+	}		
+#header li a.on,
+#header li a:hover { background-color: transparent; color: #333;}
+
+/*------------------------------------------------------------*
+**  Content
+**------------------------------------------------------------*/
+#content {
+	width: 700px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	}
+* html #content { padding-bottom: 60px; }	
+#content:after {
+	content: "."; 
+	display: block; 
+	clear: both; 
+	height: 0;
+	visibility: hidden
+	}	
+#content h2 { 
+	font-size: 20px;
+	color: #333;
+	font-weight: normal;
+	font-size: 1.8em;	
+	margin: 20px 0 8px 0;
+	clear: both;
+	}	
+#content h2 em { 
+	color: #09C; 
+	font-style: normal;
+	}
+#content p {
+	text-indent: 3em;
+	line-height: 2.5em;
+	letter-spacing: 0.1em;	
+	}	
+	
+#content ul {
+	margin: 15px 0;
+	padding: 0 0 0 10px;
+	}	
+#content li {
+	list-style-type: none;
+	background: url(img/pin.png) no-repeat 0px 3px;
+	background-size: 15px;
+	padding: 0 0 0 25px;
+	line-height: 2em;
+	letter-spacing: 0.1em;	
+	}	
+#content blockquote { 
+	background-color: #FFFFF0; 
+	margin: 20px 0; 
+	padding: 10px 20px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	}
+#content blockquote p { margin: 0; text-indent: 0; }
+	
+/*------------------------------------------------------------*
+**  left
+**------------------------------------------------------------*/
+#left {
+	float: left;
+	width: 200px;
+	text-align: left;
+	margin-right: -2px;
+	}
+audio { width: 210px; }
+/*------------------------------------------------------------*
+**  right
+**------------------------------------------------------------*/
+#right {
+	float: right;
+	width: 460px;	
+	text-align: left;	
+	}
+		
+/*------------------------------------------------------------*
+**  Footer
+**------------------------------------------------------------*/		
+#footer {	
+	position: absolute !important;
+	width: 100% !important;
+	z-index: 500 !important;
+	position: relative;	
+	padding: 10px 0;	
+	margin-top: -36px;
+	background-color: #333;		
+	color: #999;	
+	font-size: 11px;
+	border-top: 3px solid #ccc;
+	}	
+#footer p { margin: 0 10px; text-align: center; }	
+#footer a:hover { background-color: #222; }
