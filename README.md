@@ -6,3 +6,5 @@
 ## 查看方式
 
 > 使用瀏覽器，網址輸入 https://amylidev.github.io/Prepare-Job/
+
+![Prepare-Job首頁](index.png)
